@@ -31,16 +31,15 @@ tbot.on('message', (msg) => {
     }
 
     function botResponseHandler(err, res) {
-      if (err) console.error(err);
-      else {
-        console.log(res);
-        var output = res.responses.join(' ');
-        tbot.sendMessage(fromId, output);
-        if (!clientName) {
-          db.set('userid:' + fromId, res.client_name, redis.print);
-        }
+      if (err) {
+        console.error(err);
+        return;
+      }
+      var output = res.responses.join(' ');
+      tbot.sendMessage(fromId, output);
+      if (!clientName) {
+        db.set('userid:' + fromId, res.client_name, redis.print);
       }
     }
-
   });
 });
