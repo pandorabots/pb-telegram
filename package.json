@@ -1,0 +1,36 @@
+{
+  "name": "pb-telegram",
+  "version": "1.0.0",
+  "description": "Pandorabots/Telgram bot adapter",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha",
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/djfdev/pb-telegram.git"
+  },
+  "keywords": [
+    "telegram",
+    "bot",
+    "pandorabots",
+    "ai",
+    "chatbot"
+  ],
+  "author": "Daniel Fried <djfdev@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/djfdev/pb-telegram/issues"
+  },
+  "homepage": "https://github.com/djfdev/pb-telegram#readme",
+  "dependencies": {
+    "node-telegram-bot-api": "^0.15.0",
+    "pb-node": "^2.0.1",
+    "redis": "^2.2.5",
+    "request": "^2.65.0"
+  },
+  "devDependencies": {
+    "dotenv": "^1.2.0"
+  }
+}
