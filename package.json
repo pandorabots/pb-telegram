@@ -32,5 +32,8 @@
   },
   "devDependencies": {
     "dotenv": "^1.2.0"
+  },
+  "engines": {
+    "node": ">=4.0.0"
   }
 }
