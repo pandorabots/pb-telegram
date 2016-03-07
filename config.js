@@ -11,6 +11,9 @@ var config = {
   },
   telegram: {
     token: process.env.TELEGRAM_TOKEN
+  },
+  redis: {
+    url: process.env.REDISTOGO_URL
   }
 };
 

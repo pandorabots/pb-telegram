@@ -4,7 +4,7 @@ var redis = require('redis'),
     Pbot = require('pb-node'),
     config = require('./config');
 
-var db = redis.createClient();
+var db = redis.createClient(config.redis.url);
 
 var tbot = new Tbot(config.telegram.token, { polling: true });
 
