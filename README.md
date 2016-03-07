@@ -2,6 +2,8 @@
 
 Chatbot adapter for the  Telegram Bot API.
 
+[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy)
+
 ## Setup
 
 The pb-telegram app depends on [Redis](http://http://redis.io/) to map Telegram
