@@ -24,6 +24,7 @@
   },
   "homepage": "https://github.com/djfdev/pb-telegram#readme",
   "dependencies": {
+    "express": "^4.13.4",
     "node-telegram-bot-api": "^0.15.0",
     "pb-node": "^2.0.1",
     "redis": "^2.2.5",
